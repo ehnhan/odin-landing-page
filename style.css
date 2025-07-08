@@ -113,7 +113,7 @@ button {
 }
 
 .quote {
-    font-size: 36px;
+    font-size: 24px;
     color: #1F2937;
     font-style:italic;
     font-weight: 300;
@@ -126,4 +126,40 @@ button {
     color: #1F2937;
     font-weight: 700;
     margin: 10px 0 0 0;
+}
+
+/* Call to Action Section */
+
+.call-to-action-section {
+    margin: 50px 75px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    padding: 24px 36px;
+}
+
+.call-to-action-section button {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 16px;
+    color: white;
+    font-weight: 700;
+}
+
+.call-text {
+    color: #F9FAF9;
+}
+
+.call-text-main {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.call-text-second {
+    font-size: 14px;
+    margin: 0;
 }
